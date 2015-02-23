@@ -18,13 +18,24 @@
         <div class="col-md-4 col-md-offset-2">
           <h3>Cours</h3>
           <form class="form-inline" id="formCours">
-              <input type="text" id="sigleCours" class="form-control" placeholder="MAT145" style="width:100px;" autofocus="autofocus"> <button type="submit" id="sendCours" class="btn btn-default">Rechercher</button>
+            <div class="form-group">
+              <input type="text" id="sigleCours" class="form-control" placeholder="MAT145" style="width:100px;" autofocus="autofocus">
+            </div>
+            <div class="form-group">
+              <button type="submit" id="sendCours" class="btn btn-default">Rechercher</button>
+            </div>
           </form>
           <h3>Bandwidth</h3>
           <form class="form-inline" id="formBandwidth">
+            <div class="form-group">
               <input type="text" class="form-control" id="phase" style="width:100px;" placeholder="Phase">
+            </div>
+            <div class="form-group">
               <input type="text" class="form-control" id="app" style="width:100px;" placeholder="App.">
-              <button type="button" id="btnBandwidth3" class="btn btn-default">Demander</button>
+            </div>
+            <div class="form-group">
+              <button type="submit" id="btnBandwidth3" class="btn btn-default">Demander</button>
+            </div>
           </form>
           <h3><a href="http://etscourriel.etsmtl.ca/">Accès courriel</a></h3>
           <h3><a href="https://signets-ens.etsmtl.ca/">Accès SIGNETS</a></h3>
@@ -57,16 +68,16 @@
 
     </div>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-21661240-2', 'auto');
-  ga('send', 'pageview');
+      ga('create', 'UA-21661240-2', 'auto');
+      ga('send', 'pageview');
 
-</script>
+    </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
